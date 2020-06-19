@@ -1,0 +1,537 @@
+[2020-06-18 18:53:43,479] INFO org.github.dragos.vscode.Main$ - Starting server in /Volumes/Extreme SSD/scala/coursera
+[2020-06-18 18:53:43,479] INFO org.github.dragos.vscode.Main$ - Starting server in /Volumes/Extreme SSD/scala/coursera
+[2020-06-18 18:53:43,484] INFO org.github.dragos.vscode.Main$ - Classpath: /Users/kalathilmenon/.vscode/extensions/dragos.scala-lsp-0.2.3/coursier
+[2020-06-18 18:53:43,484] INFO org.github.dragos.vscode.Main$ - Classpath: /Users/kalathilmenon/.vscode/extensions/dragos.scala-lsp-0.2.3/coursier
+[2020-06-18 18:53:43,545] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1201
+[2020-06-18 18:53:43,545] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1201
+[2020-06-18 18:53:43,556] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":79560,"rootPath":"/Volumes/Extreme SSD/scala/coursera","rootUri":"file:///Volumes/Extreme%20SSD/scala/coursera","capabilities":{"workspace":{"applyEdit":true,"didChangeConfiguration":{"dynamicRegistration":false},"didChangeWatchedFiles":{"dynamicRegistration":false},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true}},"textDocument":{"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"completionItem":{"snippetSupport":true}},"hover":{"dynamicRegistration":true},"signatureHelp":{"dynamicRegistration":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"dynamicRegistration":true},"codeAction":{"dynamicRegistration":true},"codeLens":{"dynamicRegistration":true},"documentLink":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true}}},"trace":"off"}}
+[2020-06-18 18:53:43,556] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":79560,"rootPath":"/Volumes/Extreme SSD/scala/coursera","rootUri":"file:///Volumes/Extreme%20SSD/scala/coursera","capabilities":{"workspace":{"applyEdit":true,"didChangeConfiguration":{"dynamicRegistration":false},"didChangeWatchedFiles":{"dynamicRegistration":false},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true}},"textDocument":{"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"completionItem":{"snippetSupport":true}},"hover":{"dynamicRegistration":true},"signatureHelp":{"dynamicRegistration":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"dynamicRegistration":true},"codeAction":{"dynamicRegistration":true},"codeLens":{"dynamicRegistration":true},"documentLink":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true}}},"trace":"off"}}
+[2020-06-18 18:53:43,861] INFO org.github.dragos.vscode.EnsimeLanguageServer - Initialized with 79560, /Volumes/Extreme SSD/scala/coursera, ClientCapabilities()
+[2020-06-18 18:53:43,861] INFO org.github.dragos.vscode.EnsimeLanguageServer - Initialized with 79560, /Volumes/Extreme SSD/scala/coursera, ClientCapabilities()
+[2020-06-18 18:53:43,865] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - ensime.config = "/Volumes/Extreme SSD/scala/coursera/.ensime" 
+[2020-06-18 18:53:43,865] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - ensime.config = "/Volumes/Extreme SSD/scala/coursera/.ensime" 
+[2020-06-18 18:53:44,145] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+[2020-06-18 18:53:44,243] ERROR org.github.dragos.vscode.EnsimeLanguageServer - initializeEnsime Error: /Volumes/Extreme SSD/scala/coursera/.ensime
+[2020-06-18 18:53:44,243] ERROR org.github.dragos.vscode.EnsimeLanguageServer - initializeEnsime Error: /Volumes/Extreme SSD/scala/coursera/.ensime
+[2020-06-18 18:53:44,281] DEBUG langserver.core.MessageWriter - Content-Length: 146
+
+
+
+{"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2020-06-18 18:53:44,281] DEBUG langserver.core.MessageWriter - Content-Length: 146
+
+
+
+{"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2020-06-18 18:53:44,281] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2020-06-18 18:53:44,281] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2020-06-18 18:53:44,327] DEBUG langserver.core.MessageWriter - Content-Length: 441
+
+
+
+{"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2020-06-18 18:53:44,327] DEBUG langserver.core.MessageWriter - Content-Length: 441
+
+
+
+{"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2020-06-18 18:53:44,327] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2020-06-18 18:53:44,327] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2020-06-18 18:53:44,328] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 52
+[2020-06-18 18:53:44,328] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 52
+[2020-06-18 18:53:44,328] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"initialized","params":{}}
+[2020-06-18 18:53:44,328] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"initialized","params":{}}
+[2020-06-18 18:53:44,333] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification Initialized()
+[2020-06-18 18:53:44,333] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification Initialized()
+[2020-06-18 18:53:54,650] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1715
+[2020-06-18 18:53:54,650] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1715
+[2020-06-18 18:53:54,652] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala","languageId":"scala","version":1,"text":"package example\n\nobject Lists {\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  ''Hint:'' instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int = ???\n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * ''Hint:'' Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int = ???\n}\n"}}}
+[2020-06-18 18:53:54,652] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala","languageId":"scala","version":1,"text":"package example\n\nobject Lists {\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  ''Hint:'' instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int = ???\n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * ''Hint:'' Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int = ???\n}\n"}}}
+[2020-06-18 18:53:54,672] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 191
+[2020-06-18 18:53:54,672] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 191
+[2020-06-18 18:53:54,672] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":1,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala"}}}
+[2020-06-18 18:53:54,672] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":1,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala"}}}
+[2020-06-18 18:53:54,675] DEBUG langserver.core.MessageWriter - Content-Length: 36
+
+
+
+{"jsonrpc":"2.0","result":[],"id":1}
+[2020-06-18 18:53:54,675] DEBUG langserver.core.MessageWriter - Content-Length: 36
+
+
+
+{"jsonrpc":"2.0","result":[],"id":1}
+[2020-06-18 18:53:54,675] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":1}
+[2020-06-18 18:53:54,675] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":1}
+[2020-06-18 18:53:55,412] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 220
+[2020-06-18 18:53:55,412] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 220
+[2020-06-18 18:53:55,412] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":2,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala"},"position":{"line":18,"character":28}}}
+[2020-06-18 18:53:55,412] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":2,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala"},"position":{"line":18,"character":28}}}
+[2020-06-18 18:53:55,414] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (18, 28).
+[2020-06-18 18:53:55,414] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (18, 28).
+[2020-06-18 18:53:55,433] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2020-06-18 18:53:55,433] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2020-06-18 18:53:55,433] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2020-06-18 18:53:55,433] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2020-06-18 18:53:55,470] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2020-06-18 18:53:55,470] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2020-06-18 18:53:55,470] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":2}}
+[2020-06-18 18:53:55,470] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":2}}
+[2020-06-18 18:53:55,473] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(2)
+[2020-06-18 18:53:55,473] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(2)
+[2020-06-18 19:09:49,939] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1723
+[2020-06-18 19:09:49,939] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1723
+[2020-06-18 19:09:50,072] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala","version":2},"contentChanges":[{"text":"package example\n\nobject Lists {\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  ''Hint:'' instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int = undefined\n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * ''Hint:'' Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int = ???\n}\n"}]}}
+[2020-06-18 19:09:50,072] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala","version":2},"contentChanges":[{"text":"package example\n\nobject Lists {\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  ''Hint:'' instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int = undefined\n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * ''Hint:'' Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int = ???\n}\n"}]}}
+[2020-06-18 19:09:50,441] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2020-06-18 19:09:50,441] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2020-06-18 19:09:52,910] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1714
+[2020-06-18 19:09:52,910] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1714
+[2020-06-18 19:09:52,911] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala","version":3},"contentChanges":[{"text":"package example\n\nobject Lists {\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  ''Hint:'' instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int = \n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * ''Hint:'' Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int = ???\n}\n"}]}}
+[2020-06-18 19:09:52,911] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala","version":3},"contentChanges":[{"text":"package example\n\nobject Lists {\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  ''Hint:'' instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int = \n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * ''Hint:'' Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int = ???\n}\n"}]}}
+[2020-06-18 19:09:52,914] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2020-06-18 19:09:52,914] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2020-06-18 19:09:54,820] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1717
+[2020-06-18 19:09:54,820] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1717
+[2020-06-18 19:09:54,821] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala","version":4},"contentChanges":[{"text":"package example\n\nobject Lists {\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  ''Hint:'' instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int = ???\n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * ''Hint:'' Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int = ???\n}\n"}]}}
+[2020-06-18 19:09:54,821] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala","version":4},"contentChanges":[{"text":"package example\n\nobject Lists {\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  ''Hint:'' instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int = ???\n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * ''Hint:'' Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int = ???\n}\n"}]}}
+[2020-06-18 19:09:54,823] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2020-06-18 19:09:54,823] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2020-06-18 19:09:58,823] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 191
+[2020-06-18 19:09:58,823] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 191
+[2020-06-18 19:09:58,823] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":3,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala"}}}
+[2020-06-18 19:09:58,823] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":3,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala"}}}
+[2020-06-18 19:09:58,840] DEBUG langserver.core.MessageWriter - Content-Length: 36
+
+
+
+{"jsonrpc":"2.0","result":[],"id":3}
+[2020-06-18 19:09:58,840] DEBUG langserver.core.MessageWriter - Content-Length: 36
+
+
+
+{"jsonrpc":"2.0","result":[],"id":3}
+[2020-06-18 19:09:58,840] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":3}
+[2020-06-18 19:09:58,840] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":3}
+[2020-06-18 19:13:38,405] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1721
+[2020-06-18 19:13:38,405] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1721
+[2020-06-18 19:13:38,444] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala","version":5},"contentChanges":[{"text":"package example\n\nobject Lists {\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  ''Hint:'' instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int = ???\n  \n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * ''Hint:'' Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int = ???\n}\n"}]}}
+[2020-06-18 19:13:38,444] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala","version":5},"contentChanges":[{"text":"package example\n\nobject Lists {\n\n  /**\n   * This method computes the sum of all elements in the list xs. There are\n   * multiple techniques that can be used for implementing this method, and\n   * you will learn during the class.\n   *\n   * For this example assignment you can use the following methods in class\n   * `List`:\n   *\n   *  - `xs.isEmpty: Boolean` returns `true` if the list `xs` is empty\n   *  - `xs.head: Int` returns the head element of the list `xs`. If the list\n   *    is empty an exception is thrown\n   *  - `xs.tail: List[Int]` returns the tail of the list `xs`, i.e. the the\n   *    list `xs` without its `head` element\n   *\n   *  ''Hint:'' instead of writing a `for` or `while` loop, think of a recursive\n   *  solution.\n   *\n   * @param xs A list of natural numbers\n   * @return The sum of all elements in `xs`\n   */\n  def sum(xs: List[Int]): Int = ???\n  \n\n  /**\n   * This method returns the largest element in a list of integers. If the\n   * list `xs` is empty it throws a `java.util.NoSuchElementException`.\n   *\n   * You can use the same methods of the class `List` as mentioned above.\n   *\n   * ''Hint:'' Again, think of a recursive solution instead of using looping\n   * constructs. You might need to define an auxiliary method.\n   *\n   * @param xs A list of natural numbers\n   * @return The largest element in `xs`\n   * @throws java.util.NoSuchElementException if `xs` is an empty list\n   */\n  def max(xs: List[Int]): Int = ???\n}\n"}]}}
+[2020-06-18 19:13:38,533] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2020-06-18 19:13:38,533] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2020-06-18 19:13:40,241] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 191
+[2020-06-18 19:13:40,241] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 191
+[2020-06-18 19:13:40,242] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":4,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala"}}}
+[2020-06-18 19:13:40,242] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":4,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Volumes/Extreme%20SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala"}}}
+[2020-06-18 19:13:40,250] DEBUG langserver.core.MessageWriter - Content-Length: 36
+
+
+
+{"jsonrpc":"2.0","result":[],"id":4}
+[2020-06-18 19:13:40,250] DEBUG langserver.core.MessageWriter - Content-Length: 36
+
+
+
+{"jsonrpc":"2.0","result":[],"id":4}
+[2020-06-18 19:13:40,250] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":4}
+[2020-06-18 19:13:40,250] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":4}
