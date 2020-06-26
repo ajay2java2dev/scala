@@ -3,3 +3,32 @@
 2020.06.18 18:53:51 WARN  no build tool detected in workspace '/Volumes/Extreme SSD/scala/coursera'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.06.18 18:53:54 INFO  no build target: using presentation compiler with only scala-library
 2020.06.18 18:53:57 WARN  no build target for: /Volumes/Extreme SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala
+Jun 21, 2020 8:09:30 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Jun 21, 2020 8:09:39 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Jun 21, 2020 8:09:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Jun 21, 2020 8:09:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Jun 21, 2020 8:09:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Jun 21, 2020 8:09:52 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Jun 21, 2020 8:10:03 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Jun 21, 2020 8:10:10 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Jun 21, 2020 8:10:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Jun 21, 2020 8:10:20 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Jun 21, 2020 8:10:26 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Jun 21, 2020 8:10:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Jun 21, 2020 8:10:34 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Jun 21, 2020 8:10:38 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.06.21 08:10:49 WARN  no build target for: /Volumes/Extreme SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala
