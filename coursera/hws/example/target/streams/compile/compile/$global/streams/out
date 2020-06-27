@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/Volumes/Extreme SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala:45:17: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : None.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m    case Nil => None[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Volumes/Extreme SSD/scala/coursera/hws/example/src/main/scala/example/Lists.scala:46:31: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Some[Int][0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m    case List(x: Int) => Some (x)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

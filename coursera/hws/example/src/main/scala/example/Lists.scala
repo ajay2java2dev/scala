@@ -2,6 +2,7 @@ package example
 
 object Lists {
 
+
   /**
    * This method computes the sum of all elements in the list xs. There are
    * multiple techniques that can be used for implementing this method, and
@@ -24,8 +25,8 @@ object Lists {
    */
   def sum(xs: List[Int]): Int = xs match {
     case Nil => 0
+    case x :: xs => x + sum (xs)
   }
-
 
   /**
    * This method returns the largest element in a list of integers. If the
@@ -40,5 +41,11 @@ object Lists {
    * @return The largest element in `xs`
    * @throws java.util.NoSuchElementException if `xs` is an empty list
    */
-  def max(xs: List[Int]): Int = ???
+  def max(xs: List[Int]): Int = xs match {
+
+    case Nil => 0
+    //case xs if xs.isEmpty => throw new Exception("java.util.NoSuchElementException")
+    case List(x: Int) => x
+    case x :: y :: rest => max ( (if (x > y) x else y) :: rest)
+  }
 }
